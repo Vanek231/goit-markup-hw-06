@@ -127,32 +127,19 @@
 }
 
 /* MAIN */
-.main {
-}
+/* .main {
+} */
 
 /* advantages */
 
-.main-order-studio {
+/* .main-order-studio {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} */
 
-.container-order-studio {
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-/* ADVANTAGES */
+/* .container-order-studio {
+} */
+/* ADVANTAGES
 .advantages-list {
     display: flex;
     gap: 24px;
@@ -170,6 +157,7 @@
     color: #2e2f42;
     margin-bottom: 8px;
 }
+
 .advantages-paragraf {
     font-weight: 400;
     font-size: 16px;
@@ -188,7 +176,7 @@
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 
-}
+} */
 
 
 
@@ -266,7 +254,6 @@
 .our-team-soclist-item {
     width: 40px;
     height: 40px;
-
 }
 
 .our-team-soclist-link {
