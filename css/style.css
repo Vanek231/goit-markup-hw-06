@@ -176,13 +176,14 @@ HEADER
     .header-menu-adress {
         font-style: normal;
         display: flex;
+        margin-left: auto;
     }
     
     
     .header-soc-list {
         display: flex;
         flex-wrap: wrap;
-        margin-left: auto;
+        
     }
     
     
@@ -901,7 +902,7 @@ FOOTER
         padding: 0 108px;
         gap: 72px 24px;
         align-items: baseline; 
-        /* max-width: 768px; */
+        
     }
 
     .footer-logo-container {
