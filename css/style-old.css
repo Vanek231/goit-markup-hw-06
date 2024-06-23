@@ -30,7 +30,7 @@
 .header-logo-span {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -181,7 +181,7 @@
 
 
 /* OUR TEAM */
-.main-section-our-team {
+/* .main-section-our-team {
     background: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -277,7 +277,7 @@
 
 .our-team-soclist-svg {
     fill: #f4f4fd;
-}
+} */
 
 
 /* Our Portfolio */

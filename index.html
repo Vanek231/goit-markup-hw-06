@@ -15,7 +15,7 @@
 
 <body>
     <!-- header -->
-    <header class="header hidden"> 
+    <header class="header"> 
         <div class="container header-container">
             <nav class="header-nav">
                 <a href="./index.html" target="_blank" class="header-logo">Web<span class="header-logo-span">Studio</span></a>
@@ -31,6 +31,11 @@
                     <li class="header-soc-item"><a class="header-soc-link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="header-button">
+                <svg class="header-svg" width="24" height="24">
+                    <use href="./images/symbol-header.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
         </div>
     </header>
         
@@ -92,7 +97,10 @@
                 <h2 class="main-title-our-team">Our Team</h2>
                 <ul class="our-team-list">
                     <li class="our-team-item">
-                            <img src="./images/MarkGuerrero.jpg" alt="Mark Guerrero" width="264" height="260" class="our-team-item-img" />
+                            <img 
+                            srcset="./images/Our-Team/team-1@1x.jpg 1x, ./images/Our-Team/team-1@2x.jpg 2x "
+                            src="./images/MarkGuerrero.jpg"
+                             alt="Mark Guerrero" width="264" height="260" class="our-team-item-img" />
                             <div class="main-our-team-container">
                                 <h3 class="our-team-title">Mark Guerrero</h3>
                                 <p class="our-team-paragraf">Product Designer</p> 
@@ -129,7 +137,10 @@
                             </div>
                     </li>
                     <li class="our-team-item">
-                        <img src="./images/TomFord.jpg" alt="Tom Ford" width="264" height="260" class="our-team-item-img" />
+                        <img 
+                        srcset="./images/Our-Team/team-2@1x.jpg 1x, ./images/Our-Team/team-2@2x.jpg 2x"
+                        src="./images/TomFord.jpg"
+                        alt="Tom Ford" width="264" height="260" class="our-team-item-img" />
                         <div class="main-our-team-container">
                             <h3 class="our-team-title">Tom Ford</h3>
                             <p class="our-team-paragraf">Frontend Developer</p>
@@ -166,7 +177,10 @@
                         </div>    
                     </li>
                     <li class="our-team-item">
-                        <img src="./images/CamilaGarcia.jpg" alt="Camila Garcia" width="264" height="260" class="our-team-item-img" />
+                        <img 
+                        srcset="./images/Our-Team/team-3@1x.jpg 1x, ./images/Our-Team/team-3@2x.jpg 2x "
+                        src="./images/CamilaGarcia.jpg" 
+                        alt="Camila Garcia" width="264" height="260" class="our-team-item-img" />
                         <div class="main-our-team-container">
                             <h3 class="our-team-title">Camila Garcia</h3>
                             <p class="our-team-paragraf">Marketing</p>
@@ -203,7 +217,10 @@
                         </div>    
                     </li>
                     <li class="our-team-item">
-                        <img src="./images/DanielWilson.jpg" alt="Daniel Wilson" width="264" height="260" class="our-team-item-img" />
+                        <img 
+                        srcset="./images/Our-Team/team-4@1x.jpg 1x, ./images/Our-Team/team-4@2x.jpg 2x "
+                        src="./images/DanielWilson.jpg" 
+                        alt="Daniel Wilson" width="264" height="260" class="our-team-item-img" />
                         <div class="main-our-team-container">
                             <h3 class="our-team-title">Daniel Wilson</h3>
                             <p class="our-team-paragraf">UI Designer</p>
@@ -243,13 +260,15 @@
             </div>    
         </section>
          <!--Our Portfolio  -->
-        <section class="main-section-our-portfolio hidden">
+        <section class="main-section-our-portfolio">
             <div class="container">   
                 <h2 class="main-title-our-portfolio">Our Portfolio</h2>
                 <ul class="our-portfolio-list">
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/BankingApp.jpg" alt="Banking App" width="360" height="300" class="our-portfolio-item-img" />
+                            <img 
+                            srcset="./images/Our-Portfolio/Backing-App@1x.jpg, ./images/Our-Portfolio/Backing-App@2x.jpg 2x"
+                            src="./images/BankingApp.jpg" alt="Banking App" width="288" height="280" class="our-portfolio-item-img" />
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                         </div>
@@ -260,7 +279,9 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/CashlessPayment.jpg" alt="Cashless Payment" width="360" height="300" class="our-portfolio-item-img"/>
+                            <img 
+                            srcset="./images/Our-Portfolio/Cashless-Payment@1x.jpg 1x, ./images/Our-Portfolio/Cashless-Payment@1x.jpg 2x"
+                            src="./images/CashlessPayment.jpg" alt="Cashless Payment" width="288" height="280" class="our-portfolio-item-img"/>
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -272,7 +293,9 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/MeditationApp.jpg" alt="Meditation App" width="360" height="300" class="our-portfolio-item-img"/>
+                            <img 
+                            srcset="./images/Our-Portfolio/Meditation-App@1x.jpg 1x, ./images/Our-Portfolio/Meditation-App@2x.jpg 2x"
+                            src="./images/MeditationApp.jpg" alt="Meditation App" width="288" height="280" class="our-portfolio-item-img"/>
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -284,7 +307,9 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/TaxiService.jpg" alt="Taxi Service" width="360" height="300" class="our-portfolio-item-img"/>
+                            <img 
+                            srcset="./images/Our-Portfolio/Taxi-Servius@1x.jpg 1x, ./images/Our-Portfolio/Taxi-Servius@2x.jpg 2x"
+                            src="./images/TaxiService.jpg" alt="Taxi Service" width="288" height="280" class="our-portfolio-item-img"/>
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -296,7 +321,9 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="360" height="300" class="our-portfolio-item-img"/>
+                            <img 
+                            srcset="./images/Our-Portfolio/Srean-phone@1x.jpg 1x, ./images/Our-Portfolio/Srean-phone@2x.jpg 2x "
+                            src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="288" height="280" class="our-portfolio-item-img"/>
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -308,7 +335,9 @@
                     </li>
                     <li class="our-portfolio-item">
                         <div class="our-portfolio-photo-container">
-                            <img src="./images/OnlineCourses.jpg" alt="Online Courses" width="360" height="300" class="our-portfolio-item-img"/>
+                            <img 
+                            srcset="./images/Our-Portfolio/Online-Courses@1x.jpg 1x, ./images/Our-Portfolio/Online-Courses@2x.jpg 2x"
+                            src="./images/OnlineCourses.jpg" alt="Online Courses" width="288" height="280" class="our-portfolio-item-img"/>
                             <p class="our-portfolio-container-paragraf">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                 Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -323,7 +352,7 @@
         </section>
     </main>
     <!-- footer -->
-    <footer class="footer hidden">
+    <footer class="footer">
         <div class="container footer-container">
             <div class="footer-logo-container">
                 <a href="./index.html" target="_blank" class="footer-logo">Web<span class="footer-logo-span">Studio</span></a>
