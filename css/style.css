@@ -182,8 +182,7 @@ HEADER
     
     .header-soc-list {
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-direction: column;
     }
     
     
@@ -223,6 +222,9 @@ HEADER
 
 .header-soc-list {
     gap: 40px
+}
+.header-soc-list {
+    flex-direction: row;
 }
 }
 
@@ -945,7 +947,8 @@ FOOTER
 .footer-container {  
     align-items: baseline;
     flex-wrap: nowrap;
-    /* max-width: 1440px; */
+    padding: 0 15px;
+    gap: 0;
 }
 
 .footer-logo {
@@ -964,6 +967,7 @@ FOOTER
 }
 
 .footer-logo-container {
+    margin-right: 120px;
  }
 
 .footer-socmedia-list {
