@@ -176,7 +176,6 @@ HEADER
     .header-menu-adress {
         font-style: normal;
         display: flex;
-
     }
     
     
@@ -456,6 +455,7 @@ Container
     padding-bottom: 96px;
 }
 
+
 .main-title-our-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -608,10 +608,11 @@ Container
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
 }
 
 .our-portfolio-item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 48px) / 2);
 }
 
 .our-portfolio-item-img {
@@ -736,7 +737,7 @@ FOOTER
     flex-direction: column;
     gap: 72px;
     align-items: center;
-    max-width: 320px;
+    /* max-width: 320px; */
 }
 
 .footer-logo-container {
@@ -900,7 +901,7 @@ FOOTER
         padding: 0 108px;
         gap: 72px 24px;
         align-items: baseline; 
-        max-width: 768px;
+        /* max-width: 768px; */
     }
 
     .footer-logo-container {
@@ -942,7 +943,8 @@ FOOTER
 
 .footer-container {  
     align-items: baseline;
-    max-width: 1440px;
+    flex-wrap: nowrap;
+    /* max-width: 1440px; */
 }
 
 .footer-logo {
