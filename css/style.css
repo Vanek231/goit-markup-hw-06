@@ -69,6 +69,8 @@ HEADER
 }
 
 .header-logo {
+    display: block;
+    padding: 16px 0;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -183,12 +185,14 @@ HEADER
     .header-soc-list {
         display: flex;
         flex-direction: column;
+        gap: 12px;
     }
     
     
     .header-soc-item {}
     
     .header-soc-link {
+        font-size: 12px;
         line-height: 1.5;
         font-size: 16px;
         letter-spacing: 0.02em;
@@ -319,10 +323,12 @@ Container
  }
 
  .advantages-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
  }
 
- .advantages-img-svg {
+ .container-advantages-item {
     display: none;
 }
 
@@ -349,11 +355,11 @@ Container
 }
 
 .container-advantages-item {
-    margin-bottom: 72px;
+
 }
 
 .advantages-list .advantages-item:last-child {
-    margin-bottom: 96px;
+   
 }
 
 /*MOBILE OUR TEAM */
@@ -363,7 +369,7 @@ Container
 }
 
 .our-team-container {
-    padding: 32px 0;
+  
 }
 
 .main-title-our-team {
@@ -561,7 +567,7 @@ Container
 
 /* ADVANTAGES TABLET */
 .advantages-list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 72px;
@@ -672,6 +678,12 @@ Container
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+}
+
+.advantages-subtitle {  
+    font-size: 20px;
+    line-height: 1.2;
+     color: #2e2f42;
 }
 
  .advantages-paragraf {
@@ -883,6 +895,7 @@ FOOTER
 }
 
 .backdrop {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
